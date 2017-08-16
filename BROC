@@ -1,0 +1,5 @@
+#edit-mode: -*- python -*-
+#coding:utf-8
+
+
+CONFIGS("waimai/bi_arch/blade@blade_1-0-1-1_PD_BL@tag")

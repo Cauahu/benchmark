@@ -1,0 +1,5 @@
+.svn
+.BROC*
+.broc*
+.*~
+output/

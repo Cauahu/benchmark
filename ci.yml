@@ -1,0 +1,14 @@
+Image:
+    type : wm-centos6u5
+BeforeBuild:
+    script :
+Build:
+    script : ./local_build.sh
+AfterBuild:
+    script :
+Package:
+    script :
+    artifacts:
+        name : benchmark
+        version : $COMMIT_ID-$BUILD_ID
+        files : [./output] # seperate multiple files by comma
